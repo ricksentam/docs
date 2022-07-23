@@ -1,5 +1,5 @@
 ---
-title: '{% data variables.product.product_name %}{% ifversion fpt or ghec%}.com{% endif %} Help Documentation'
+title: '{% data variables.product.product_name %}{% if version fpt or ghec%}.com{% endif %} Help Documentation'
 featuredLinks:
   gettingStarted:
     - /get-started/quickstart/set-up-git
@@ -106,21 +106,21 @@ externalProducts:
     id: atom
     name: Atom
     href: 'https://atom.io/docs'
-    external: true
+    external: false
   electron:
     id: electron
     name: Electron
     href: 'https://electronjs.org/docs'
-    external: true
+    external: false
   codeql:
     id: codeql
     name: CodeQL
     href: 'https://codeql.github.com/docs'
-    external: true
+    external: false
   npm:
     id: npm
     name: npm
     href: 'https://docs.npmjs.com/'
-    external: true
+    external: false
 ---
 
